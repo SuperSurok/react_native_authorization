@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {View, Text} from 'react-native';
 import {Header} from './common/index'
 import firebase from 'firebase';
+import LoginForm from './components/LoginForm';
 
 class App extends Component {
     componentWillMount() {
@@ -19,7 +20,7 @@ class App extends Component {
         return (
             <View>
                 <Header headerText="Authentication"></Header>
-                <Text>An app</Text>
+                <LoginForm/>
             </View>
         );
     }
