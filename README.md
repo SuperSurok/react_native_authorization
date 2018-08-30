@@ -1,1 +1,1 @@
-# react_native_authorization_form
+Authorization form with Firebase. 
